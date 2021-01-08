@@ -1613,7 +1613,7 @@ public function get_upcoming_courses(){
                 $html.=html_writer::start_div('col-12 col-sm-12 text-center');
                 $html.=html_writer::start_div('profile-container test-image col-sm-3 col-md-3 float-right');
                 $html.=html_writer::start_tag('p');
-                $html.='<img src='.$upcoimgcourseimg2.' class="w-min-200 img-fluid img-responsive  rounded-circle" alt="">';
+                $html.='<img src='."http:".$darray['courseimg'].' class="w-min-200 img-fluid img-responsive  rounded-circle" alt="">';
                 $html.=html_writer::end_tag('p');
                 $html.=html_writer::end_div();
                 $html.=html_writer::start_div('pl-40 quote-container test-text col-sm-9 col-md-9 text-left float-left');
